@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist",
+
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "esModuleInterop": true,
+
+    "sourceMap": true,
+
+    "jsx": "react",
+    "allowJs": true, //Проходится по js файлам
+
+    "strict": true, //Строгий режим
+    "module": "esnext",
+    "moduleResolution": "node"
+  },
+  "ts-node" : {
+    "compilerOptions" : {
+      "target": "es6",
+      "module" : "commonjs"
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": [
+    "node_modules/",
+    "lib",
+    "es",
+    "**/*.test.*"
+  ]
+}

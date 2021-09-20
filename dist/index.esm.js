@@ -1,0 +1,1 @@
+import r from"@babel/runtime/helpers/typeof";import t from"is-objects-equal";export default function(e,o){if(Array.isArray(e))return"object"===r(o)?e.filter((function(e){return"object"===r(e)&&t([e,o])})).length:e.filter((function(r){return r==o})).length;throw new Error("first parameter is not Array")}

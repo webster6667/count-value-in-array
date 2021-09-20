@@ -1,0 +1,1 @@
+export type CountValueInArray = (arrayForCount: any[], countValue: any) => number
